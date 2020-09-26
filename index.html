@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 
 <html>
-<title>Eric Johnson</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<!-- <link href='http://fonts.googleapis.com/css?family=Lato:100,400,700,900' rel='stylesheet' type='text/css'> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-<!-- <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+
+<head>
+    <title>Eric Johnson</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
 <body>
-    <!-- Navbar (sit on top) -->
+
+    <!-- NAVBAR/SIDEBAR FOR COMPUTER AND MOBILE -->
     <div class="w3-top">
         <div class="w3-sidebar" id="myNavbar">
-            <a class="w3-bar-item button w3-hover-black w3-hide-medium w3-hide-large w3-right"
-                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-                <i class="fa fa-bars"></i>
-            </a>
-            <a href="#home" class="w3-bar-item button w3-hide-small">
-                <i class="fa fa-home fa-2x"></i>
-            </a>
-            <a href="#portfolio" class="w3-bar-item button w3-hide-small">
-                <i class="fa fa-th fa-2x"></i>
-            </a>
-            <a href="#about" class="w3-bar-item button w3-hide-small">
-                <i class="fa fa-user fa-2x"></i>
-            </a>
-            <a href="#contact" class="w3-bar-item button w3-hide-small">
-                <i class="fa fa-envelope fa-2x"></i>
-            </a>
+            <a class="w3-bar-item button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"> <i class="fa fa-bars"></i></a>
+            <br><br>
+            <a href="#home" class="w3-bar-item button w3-hide-small"> <i class="fa fa-home fa-2x"></i>&emsp;</a>
+            <a href="#portfolio" class="w3-bar-item button w3-hide-small"> <i class="fa fa-th fa-2x"></i>&emsp;</a>
+            <a href="#about" class="w3-bar-item button w3-hide-small"> <i class="fa fa-user fa-2x"></i></a>
+            <a href="#contact" class="w3-bar-item button w3-hide-small"> <i class="fa fa-envelope fa-2x"></i></a>
         </div>
-        <!-- Navbar on small screens -->
+
         <div id="mobileNav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
             <a href="#home" class="w3-bar-item button" onclick="toggleFunction()">HOME</a>
             <a href="#portfolio" class="w3-bar-item button" onclick="toggleFunction()">PORTFOLIO</a>
@@ -41,15 +34,13 @@
     </div>
 
 
-    <!-- First Parallax Image with Logo Text -->
+    <!-- Heading with Image -->
     <div class="bgimg bgimg-1 w3-display-container justify-text-center" id="home">
         <div class="w3-display-middle title justify-text-center" style="white-space:nowrap;">
             <span class="w3-center w3-black w3-xlarge w3-wide justify-text-center">
-                <span class="w3-hide-small"></span>
-                <span> Eric Johnson</span>
+                <span class="w3-hide-small"> Eric Johnson</span>
                 <br>
-                <span class="w3-hide-small">Software Engineering and Development</span>
-            </span>
+                <span class="w3-hide-small">Software Engineering and Development</span></span>
         </div>
     </div>
 
@@ -57,11 +48,10 @@
     <div class=" w3-container w3-padding-64" id="portfolio">
         <div class="section bg1"></div>
         <h2 class="w3-center"><em>PORTFOLIO</em></h2>
-        <p class="w3-center">
-            <em>Some of my latest projects.
-        </p>
-        <br>
-        <!-- Responsive Grid. Three columns -->
+        <p class="w3-center"><em>My latest projects!</em></p>
+        <br></br>
+
+        <!-- RESPONSIVE PORTFOLIO GRID (Three columns) With links to Github/deployed projects-->
         <div class="w3-row-padding w3-center w3-section">
 
             <div class="w3-col m4">
@@ -97,22 +87,23 @@
 
     </div>
 
-    <!--Tech Icons-->
+    <!--Tech Skill Icons-->
     <div class="w3-row w3-center bg1 w3-padding-16">
+        <h2><em>SKILLS</em></h2>
         <div class="w3-third w3-section">
             <img class="icon" src="assets/icons/html.svg">
             <img class="icon" src="assets/icons/css.svg">
             <img class="icon" src="assets/icons/javascript.svg">
-            <img class="icon" src="assets/icons/jquery.svg">
         </div>
+
         <div class="w3-third w3-section">
-            <img class="icon" src="assets/icons/sass.svg">
+            <img class="icon" src="assets/icons/jquery.svg">
+            <!-- <img class="icon" src="assets/icons/sass.svg"> -->
             <img class="icon" src="assets/icons/react.svg">
             <img class="icon" src="assets/icons/node.svg">
-            <!-- <img class="icon" src="assets/icons/express.svg"> -->
         </div>
+        
         <div class="w3-third w3-section">
-            <img class="icon" src="assets/icons/handlebars.svg">
             <img class="icon" src="assets/icons/mongodb.svg">
             <img class="icon" src="assets/icons/mysql.svg">
             <img class="icon" src="assets/icons/github.svg">
@@ -153,7 +144,7 @@
             <div class="profile__section-right">
                 <div class="text-box">
                     <div class="text-box__section text-box__section-default">
-                        <h4 class="text-box__section--title">Dependent Development</h4>
+                        <h4 class="text-box__section--title">Dependable Development</h4>
                         <div class="text-box__section--content">
                             <p>
                                 Software Engineering and Development with extensive experience in Frontend, Backend, and Database Language’s.
