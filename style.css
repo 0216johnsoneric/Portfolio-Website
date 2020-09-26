@@ -44,8 +44,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("..assets/images/New-York-City-HD-Wallpaper.jpg");
-}
-/* }.bgimg-1 {
+    /* background-image: url("..assets/images/New-York-City-HD-Wallpaper.jpg"); */
+
+}.bgimg-1 {
     background-image: url("assets/images/New-York-City-HD-Wallpaper.jpg");
-} */
+    min-height: 100%;}
