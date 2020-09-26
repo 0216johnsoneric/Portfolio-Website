@@ -1,0 +1,19 @@
+*, 
+*::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body,
+html {
+    height: 100%;
+    color: #272727;
+    line-height: 1.8;
+    background: linear - gradient(to right, #2941f7, #dc6c11);
+    background-size: cover;
+}
