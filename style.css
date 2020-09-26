@@ -114,4 +114,12 @@ body {
     .card__btn:hover {
       opacity: 0.8; }
     .card__btn > i {
-      transform: translateY(20%); }
+      transform: translateY(20%); 
+    }
+
+.icon {
+  width: 24.2%;
+  padding: .6rem;
+  filter: brightness(0) invert(0.6); }
+.icon:hover {
+    filter: brightness(1) invert(0); }
