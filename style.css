@@ -17,3 +17,35 @@ html {
     background: linear-gradient(to right, #2941f7, #dc6c11);
     background-size: cover;
 }
+
+body {
+    font-family: "Lato",
+    sans-serif;
+}.w3-wide {
+    letter-spacing: 5 px;
+}.button {
+    border: none;
+    display: inline - block;
+    outline: 0;
+    padding: 8 px 16 px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}.button:hover {
+    opacity: .5;
+    background-color: transparent;
+}.bgimg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("..assets/images/New-York-City-HD-Wallpaper.jpg");
+}
+/* }.bgimg-1 {
+    background-image: url("assets/images/New-York-City-HD-Wallpaper.jpg");
+} */
