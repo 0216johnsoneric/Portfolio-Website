@@ -52,6 +52,9 @@ body {
     background-image: url("assets/images/New-York-City-HD-Wallpaper.jpg");
     min-height: 100%;
 }
+.bgimg-2 {
+    background-image: url("assets/images/People-working-with-mobile-devices-and-computers-representing-omnichannel.jpg");
+    min-height: 400px; }
 
 #myNavbar {
     color: #EAF2E3;
