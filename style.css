@@ -21,11 +21,12 @@ html {
 body {
     font-family: "Lato",
     sans-serif;
-}.w3-wide {
+}.w3 {
     letter-spacing: 5 px;
+   
 }.button {
     border: none;
-    display: inline - block;
+    display: inline-block;
     outline: 0;
     padding: 8 px 16 px;
     vertical-align: middle;
@@ -44,7 +45,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url("..assets/images/New-York-City-HD-Wallpaper.jpg"); */
+    text-align: center;
+    font-size: 40px;
 
 }.bgimg-1 {
     background-image: url("assets/images/New-York-City-HD-Wallpaper.jpg");
@@ -121,5 +123,5 @@ body {
   width: 24.2%;
   padding: .6rem;}
   /* filter: brightness(0) invert(0.6); } */
-/* .icon:hover {
-    filter: brightness(1) invert(0); } */
+.icon:hover {
+    filter: brightness(1) invert(0.3); }
