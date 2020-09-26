@@ -14,6 +14,6 @@ html {
     height: 100%;
     color: #272727;
     line-height: 1.8;
-    background: linear - gradient(to right, #2941f7, #dc6c11);
+    background: linear-gradient(to right, #2941f7, #dc6c11);
     background-size: cover;
 }
