@@ -48,4 +48,21 @@ body {
 
 }.bgimg-1 {
     background-image: url("assets/images/New-York-City-HD-Wallpaper.jpg");
-    min-height: 100%;}
+    min-height: 100%;
+}
+
+#myNavbar {
+    color: #EAF2E3;
+    background: transparent;
+    width: 50px;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    z-index: 100; 
+}
+
+#mobileNav {
+    z-index: 10; 
+}
