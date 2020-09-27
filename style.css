@@ -116,9 +116,9 @@ body {
     text-transform: uppercase;
     margin: 1em auto 0;
     border-radius: 2px; }
-    .card__btn:hover {
+    .card_btn:hover {
       opacity: 0.8; }
-    .card__btn > i {
+    .card_btn > i {
       transform: translateY(20%); 
     }
 
