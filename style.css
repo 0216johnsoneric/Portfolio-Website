@@ -149,17 +149,21 @@ body {
     background-color: #000;
 }
 
+.image-responsive__picture:hover {
+  margin-left: 0 40px;
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+
+
 .text-box {
     margin: 0 auto;
     height: auto;
     overflow: hidden;
     padding: 0;
 }
-.text-box:hover .text-box__section--content {
-    transition: all 0.25s linear;
-    height: 0;
-    overflow: hidden;
-}
+
 .text-box__section {
     overflow: hidden;
     border-bottom: 1px solid;
