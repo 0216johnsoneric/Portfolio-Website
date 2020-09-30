@@ -40,7 +40,7 @@ body {
 }.button:hover {
     opacity: .5;
     background-color: transparent;
-}.bgimg {
+}.bigimg {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,11 +48,11 @@ body {
     text-align: center;
     font-size: 40px;
 
-}.bgimg-1 {
+}.bigimg-1 {
     background-image: url("assets/images/New-York-City-HD-Wallpaper.jpg");
     min-height: 100%;
 }
-.bgimg-2 {
+.bigimg-2 {
     background-image: url("assets/images/People-working-with-mobile-devices-and-computers-representing-omnichannel.jpg");
     min-height: 400px; }
 
@@ -128,3 +128,44 @@ body {
   /* filter: brightness(0) invert(0.6); } */
 .icon:hover {
     filter: brightness(1) invert(0.3); }
+
+.image-responsive {
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 1000px;
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.image-responsive__picture {
+    transform: translateX(0rem) scale(1.0);
+    transition: 0.35s ease;
+    backface-visibility: hidden;
+    background-color: #000;
+}
+
+.text-box {
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+}
+.text-box:hover .text-box__section--content {
+    transition: all 0.25s linear;
+    height: 0;
+    overflow: hidden;
+}
+.text-box__section {
+    overflow: hidden;
+    border-bottom: 1px solid;
+}
+.text-box__section--title {
+    font-weight: 700;
+    padding: 1rem;
+    margin: 0;
+}
