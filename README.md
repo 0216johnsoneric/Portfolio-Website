@@ -12,7 +12,7 @@ Instructions:
 1) Clone lab: git clone git@github.com:0216johnsoneric/Portfolio-Website.git
 2) Run in Browser w/ localhost or VS code browser extension
 
-<img src="assets/images/Screen Shot 2020-09-26 at 9.55.04 AM.png"> </img>
+<img src="assets/images/Screen Shot 2020-09-29 at 8.21.04 PM.png"> </img>
 
 
 
