@@ -116,12 +116,7 @@ body {
     text-transform: uppercase;
     margin: 1em auto 0;
     border-radius: 2px; }
-    .card_btn:hover {
-      opacity: 0.8; }
-    .card_btn > i {
-      transform: translateY(20%); 
-    }
-
+ 
 .icon {
   width: 24.2%;
   padding: .6rem;}
@@ -155,7 +150,6 @@ body {
   cursor: pointer;
 
 }
-
 
 .text-box {
     margin: 0 auto;
