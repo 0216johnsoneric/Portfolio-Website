@@ -5,9 +5,11 @@ A personalized Website that displays my portfolio projects and other materials t
 * A updated resume
 * A updated LinkedIn profile
 
-Github Pages: git@github.com:0216johnsoneric/Portfolio-Website.git
+Github Pages: https://0216johnsoneric.github.io/Portfolio-Website/
+
+
 Instructions:
-1) Clone lab: git clone git@github.com:0216johnsoneric/Responsive-Portfolio.git
+1) Clone lab: git clone git@github.com:0216johnsoneric/Portfolio-Website.git
 2) Run in Browser w/ localhost or VS code browser extension
 
 <img src="assets/images/Screen Shot 2020-09-26 at 9.55.04 AM.png"> </img>
