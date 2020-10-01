@@ -16,8 +16,8 @@ function effect(card) {
         var winhi = window.innerHeight / 2,
             offsetX = this.offsetLeft,
             offsetY = this.offsetWidth / 2;
-        this.style.setProperty('--mouseX', (e.clientX - offsetX - offsetY) / 25);
-        this.style.setProperty('--mouseY', (e.clientY - winhi) / 25);
+        this.style.setProperty('--mouseX', (e.clientX - offsetX - offsetY) / 20);
+        this.style.setProperty('--mouseY', (e.clientY - winhi) / 20);
     });
 
     card.addEventListener('mouseleave', function (e) {
