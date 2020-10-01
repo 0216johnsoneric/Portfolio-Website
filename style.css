@@ -40,7 +40,10 @@ body {
 }.button:hover {
     opacity: .5;
     background-color: transparent;
-}.bigimg {
+}
+
+
+.bigimg {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,13 +51,20 @@ body {
     text-align: center;
     font-size: 40px;
 
-}.bigimg-1 {
+}
+.bigimg-1 {
     background-image: url("assets/images/New-York-City-HD-Wallpaper.jpg");
     min-height: 100%;
 }
 .bigimg-2 {
     background-image: url("assets/images/People-working-with-mobile-devices-and-computers-representing-omnichannel.jpg");
-    min-height: 400px; }
+    min-height: 350px; }
+
+.bigimg-3 {
+    background-image: url("assets/images/contact-image-1482350819.jpg");
+    min-height: 350px;
+}
+
 
 #myNavbar {
     color: #EAF2E3;
@@ -166,4 +176,8 @@ body {
     font-weight: 700;
     padding: 1rem;
     margin: 0;
+}
+
+#contact {
+    justify-content: center;
 }

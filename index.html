@@ -15,6 +15,7 @@
 
 <body>
 
+   
     <!-- NAVBAR/SIDEBAR FOR COMPUTER AND MOBILE -->
     <div class="w3-top">
         <div class="w3-sidebar" id="myNavbar">
@@ -23,18 +24,19 @@
             <a href="#home" class="w3-bar-item button w3-hide-small"> <i class="fa fa-home fa-2x"></i>&emsp;</a>
             <a href="#portfolio" class="w3-bar-item button w3-hide-small"> <i class="fa fa-th fa-2x"></i>&emsp;</a>
             <a href="#about" class="w3-bar-item button w3-hide-small"> <i class="fa fa-user fa-2x"></i></a>
-            <!-- <a href="#contact" class="w3-bar-item button w3-hide-small"> <i class="fa fa-envelope fa-2x"></i></a> -->
+            <a href="#contact" class="w3-bar-item button w3-hide-small"> <i class="fa fa-envelope fa-2x"></i></a>
         </div>
 
         <div id="mobileNav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
             <a href="#home" class="w3-bar-item button" onclick="toggleFunction()">HOME</a>
             <a href="#portfolio" class="w3-bar-item button" onclick="toggleFunction()">PORTFOLIO</a>
             <a href="#about" class="w3-bar-item button" onclick="toggleFunction()">ABOUT</a>
-            <!-- <a href="#contact" class="w3-bar-item button" onclick="toggleFunction()">CONTACT</a> -->
+            <a href="#contact" class="w3-bar-item button" onclick="toggleFunction()">CONTACT</a>
         </div>
     </div>
 
 
+   
     <!-- Heading with Image -->
     <div class="bigimg bigimg-1 w3-display-container justify-text-center" id="home">
         <div class="w3-display-middle title justify-text-center" style="white-space:nowrap;">
@@ -45,8 +47,9 @@
         </div>
     </div>
 
+    
     <!-- PORTFOLIO SECTION -->
-    <div class=" w3-container w3-padding-64" id="portfolio">
+    <div class="w3-container w3-padding-64" id="portfolio">
         <div class="section bg1"></div>
         <h2 class="w3-center"><em>PORTFOLIO</em></h2>
         <p class="w3-center"><em>My latest projects!</em></p>
@@ -88,6 +91,7 @@
 
     </div>
 
+   
     <!--Tech Skill Icons-->
     <div class="w3-row w3-center bg1 w3-padding-16">
         <h2><em>SKILLS</em></h2>
@@ -110,6 +114,7 @@
         </div>
     </div>
 
+   
     <!-- About Section-->
     <div class="bigimg bigimg-2 w3-display-container">
         <div class="w3-display-middle">
@@ -158,7 +163,56 @@
                 </div>
             </div>
         </div>
+        </div>
+    </div>
+    <br></br>
+
+   
+    <!-- Contact Section -->
+    <div class="bigimg bigimg-3 w3-display-container">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+    </div>
     
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h2 class="w3-center"><em>LOCATION</em></h2>
+        <div class="w3-row w3-padding-32 w3-section">
+            
+            <div class="w3-panel w3-center">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Connecticut, USA
+                    <br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (860) 387-5835
+                    <br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ericjohnson0216@icloud.com
+                    <br>
+                </div>
+                <br></br>
+                
+                <form id="contact-form" method="POST" action="#">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        </div> 
+                        
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                        <br></br>
+                        <div class="w3-full">
+                            <textarea class="w3-input w3-border" type="text" name="message" placeholder="Message" requiredname="Message"></textarea>
+                        </div>
+
+                    </div>
+                    
+                    <button class="button w3-black w3-center w3-section" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button>
+                    <input type="hidden" name="_next" value="#" />
+                </form>
+            </div>
+           
+        </div>
     </div>
 
 
