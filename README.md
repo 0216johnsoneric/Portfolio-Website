@@ -1,5 +1,5 @@
 # Portfolio-Website
-Eric Johnson's personalized Website displays portfolio projects, skills, and other materials that excel him toward being employer competitive:
+Eric Johnson's personalized Website displays portfolio projects, skills, and other materials that excel him toward being development competitive:
 * An updated portfolio featuring project 1 and two exemplary homework assignments.
 * An updated GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
 * A updated resume
