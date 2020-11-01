@@ -5,9 +5,9 @@ Eric Johnson's personalized Website displays portfolio projects, skills, and oth
 * A updated resume
 * A updated LinkedIn profile
 
-Github Pages: https://0216johnsoneric.github.io/Portfolio-Website/home.html
+1) Github Pages: https://0216johnsoneric.github.io/Portfolio-Website/home.html
 or deploy on 
-Heroku:  https://eric-j-portfolio-website.herokuapp.com/#home
+2) Heroku:  https://eric-j-portfolio-website.herokuapp.com/#home
 
 Instructions:
 1) Clone lab: git clone git@github.com:0216johnsoneric/Portfolio-Website.git
